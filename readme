@@ -1,0 +1,50 @@
+Evolution
+
+A genetic algorithm which simulates agents within a closed economy.
+
+The search objectiove is to determine the right mix of incubators and fouondamental infrastructure required to creata a sustainable economy. It will also enable us to search for the path of activities, corporate culture and partnerships necessary to create a unicorn.
+
+Languages
+goland - support concurrent agents
+elastic search - support distributed data store
+kafka - distribute event and message bus
+
+Infrastructure
+docker is used to launch individual agents in a concurrent and independent distriuted compute eco0system.
+
+Components
+god_time - this is an independent timestamp server that enables agents and events to synchronize activities. The time server isseus a new epoch of 8 sequencial digits. Each agent is required to complete a series of activities within each epoch. The epoch advances for all agents when the last agent has responded or tmesout. This removes artifical advantages due to compute resources as agents evolve.
+
+agent - each agent represents a stakeholder in a closed economy as well as geographic areas.
+
+domain - this corresponds to a universal human need, as described by the 17 UN SDGs
+
+verticals - this corresponds to ISO defined business areas such as education, military etc
+
+geographic_area - characterisitcs of a business domain within a geographic location. It has genetic sequences which describe market efficiencies for a domain as well as the presence of incubent players.  
+
+soverign_goals - this represents each countries vision2030 goals
+
+model - this reporesents a business model, which is a combination of constractual_relationships and transaction_functions between agents-sets which satisfy constriants defined by geographic-area-genetic-requirements and agent-genetic-requirements
+
+method - this represents a combination of geographic areas, models, technology and scientific research investments 
+
+agents-sets - these are a distinc set of live agents which satisfy a specific genetic-sequence
+
+constractual_relationships - this is a legal obligation between agents defined by agent_sets, product, geo-graphic-area and transaction_functions
+
+transaction_functions - this is an exchange of currency for product between two agents, which defined by genetic markers which describe risk, laws and culture
+
+genetic_marker - this is a quantitative rating of genetic attribute such as corruption, risk or liquidty
+
+geographic-area-genetic-requirements - this is a sequence of attributes and genetic makers for a geographic area
+
+agent-genetic-requirements - this is a sequence of attributes and genetic makers for a agent
+
+
+
+
+
+
+
+
